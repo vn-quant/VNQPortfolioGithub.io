@@ -11,6 +11,52 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.container {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				padding: 20px;
+			}
+	
+			.image {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-right: 20px;
+        	}
+			.image img {
+            max-width: 70%;
+            height: auto;
+        	}
+	
+			.text {
+				flex: 1;
+				padding-left: 20px;
+			}
+			.contact-list {
+            list-style: none;
+            padding: 0;
+        	}
+
+        	.contact {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        	}
+
+        	.contact img {
+            max-width: 50px;
+            height: auto;
+            margin-right: 10px;
+        	}
+
+        	.map-link {
+            color: blue;
+            text-decoration: underline;
+        	}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -40,12 +86,26 @@
 						<ul class="icons">
 							<li><a href="#https://www.linkedin.com/in/vnquant/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
 							<li><a href="#https://github.com/vn-quant" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="mailto:quangvn.isfa7@gmail.com" class="icon brands alt fa-envelope"><span class="label">GitHub</span></a></li>
+							<li><a href="mailto:quangvn.isfa7@gmail.com" class="far fa-envelope"><span class="label"> Mail</span></a></li>
 						</ul>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
+
+						<div class="container">
+							<div class="image">
+								<img src="images/VU_pic_square.png" alt="Image">
+							</div>
+							<div class="text">
+								<p>Hi, My name is VU.</p>
+							  <p>
+								I'm currently a M2 actuary student at ISFA. I am skilled for most data-science steps: 
+								data pre-processing, application of statistical methods, data visualization and results communication.
+							  </p>
+							</div>
+						</div>
+						  
 
 						<!-- Featured Post -->
 						<div class="row hide-if-small-screen" style="padding-top: 5%">
@@ -251,34 +311,30 @@
 					</div>
 				<!-- Footer -->
 					<footer id="footer">
+						<section>
+						<ul class="contact-list">
+							<li class="contact">
+								<div>
 
-						<section class="split contact">
-							<h2 class="section-heading text-uppercase" style="color: black" style="text-align: center" >
-								Contact
-							</h2>
-							<section class="alt">
-								<h3>Address</h3>
-								<p>Lyon, France<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">0663235574</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">quangvn.isfa7@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#https://www.linkedin.com/in/vnquant/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
-									<li><a href="#https://github.com/vn-quant" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="mailto:quangvn.isfa7@gmail.com" class="icon brands alt fa-envelope"></a></li>
-								</ul>
-							</section>
-						</section>
+									<div class="contact-details">
+										<h3>Contact</h3>
+										<p>Phone: 0961350888</p>
+										<p>Email: quangvn.isfa7@gmail.com<a href="mailto:quangvn.isfa7@gmail.com" class="icon brands alt fa-envelope"></a></p></p>
+										<p>Location: <a class="map-link" href="https://goo.gl/maps/rXUM96XVdHnrh7dW8">View on Map</a></p>
+									</div>
+									<h3>Social</h3>
+									<ul class="icons alt">
+										<li><a href="#https://www.linkedin.com/in/vnquant/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+										<li><a href="#https://github.com/vn-quant" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+										<li><a href="mailto:quangvn.isfa7@gmail.com" class="far fa-envelope"></a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</section>
 					</footer>
+					
+
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
